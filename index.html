@@ -1,0 +1,59 @@
+<head>
+  <meta charset="utf-8" />
+  <title>WShare</title>
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="https://cdn.firebase.com/libs/firebaseui/4.0.0/firebaseui.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:300,400,700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <!--
+  <div class="container highlightTextOut">
+    <a href="default.asp">Home</a>
+    <a href="news.asp">News</a>
+    <a href="contact.asp">Contact</a>
+    <a href="about.asp">About</a>
+  </div>-->
+
+  <nav>
+    <ul class="main-nav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="profile.html">Profile</a></li>
+      <li><a href="">About</a></li>
+      <li class="push"><a href="">Contact</a></li>
+    </ul>
+  </nav>
+  <div id="app">
+    <!--<img
+      src="https://firebasestorage.googleapis.com/v0/b/playlist-app-ed242.appspot.com/o/10613014_10076.jpg?alt=media&token=a910b102-363e-42bf-bdca-8000444dc84b"
+    />-->
+
+    <section id="event-details-container">
+      <h1>WShare</h1>
+
+      <!--<p><i class="material-icons">calendar_today</i> October 30</p>
+    <p><i class="material-icons">location_city</i> San Francisco</p>-->
+      <!-- ADD THE RSVP BUTTON HERE -->
+      <section id="firebaseui-auth-container"></section>
+      <button id="startRsvp">Log in</button>
+    </section>
+
+    <section id="description-container">
+      <h2>What we'll be doing</h2>
+      <p>A new app is on the way, stay tune!</p>
+    </section>
+
+    <section id="guestbook-container"></section>
+  </div>
+</body>

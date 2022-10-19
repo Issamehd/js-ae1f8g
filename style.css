@@ -1,0 +1,245 @@
+@media all and (min-width: 1200px) {
+  #app {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+@media all and (min-width: 960px) and (max-width: 1199px) {
+  #app {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+}
+
+@media all and (max-width: 599px) {
+  img {
+    margin-top: 10px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 21px;
+  }
+}
+
+@media all and (min-width: 600px) {
+  section {
+    clear: both;
+    display: block;
+  }
+  #event-details-container {
+    clear: none;
+  }
+
+  img {
+    width: 60%;
+    height: 300px;
+    float: left;
+    border-radius: 21px;
+    object-fit: cover;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+hr {
+  clear: both;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+section {
+  margin: 20px;
+}
+
+.material-icons {
+  padding-right: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: black;
+}
+
+h1,
+h2,
+h3,
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+  color: white;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  margin-bottom: 0px;
+}
+
+label {
+  font-size: 18px;
+}
+
+p {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+#guestbook > p {
+  font-weight: lighter;
+  font-size: 14px;
+}
+#app {
+  display: block;
+  text-align: center;
+}
+#firebaseui-auth-container {
+  background-color: black;
+}
+input {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  font-size: 14px;
+  padding: 4px 0;
+  background: 0 0;
+  text-align: left;
+  color: inherit;
+}
+
+button.clicked {
+  background-color: rgba(255, 195, 0, 0);
+  border-color: rgb(255, 255, 255);
+  color: white;
+  outline-color: white;
+}
+
+button,
+button.firebaseui-id-submit.mdl-button--raised.mdl-button--colored {
+  background-color: rgba(255, 195, 0, 0.9);
+  border-color: rgb(255, 255, 255);
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: none;
+  color: rgb(255, 255, 255);
+  cursor: default;
+  display: inline-flex;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 16px;
+  outline-color: rgb(60, 67, 154);
+  overflow: hidden;
+  padding: 0px 15px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  color: white;
+}
+
+/* Highlight text out  */
+div.highlightTextOut a {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+div.highlightTextOut a:before,
+div.highlightTextIn a:before {
+  position: absolute;
+  color: #fff;
+  top: 0px;
+  left: 0px;
+  padding: 10px;
+  overflow: hidden;
+  content: attr(alt);
+  transition: all 0.3s;
+  transform: scale(0.8);
+  opacity: 0;
+}
+
+div.highlightTextOut a:hover:before,
+div.highlightTextIn a:hover:before {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* Highlight text in  */
+div.highlightTextIn a {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+div.highlightTextIn a:before {
+  transform: scale(1.2);
+}
+
+div.container {
+  font-family: Raleway;
+  margin: 0 auto;
+  padding: 10em 3em;
+  text-align: center;
+}
+
+div.container a {
+  color: #fff;
+  text-decoration: none;
+  font: 19px Raleway;
+  margin: 0px 10px;
+  padding: 10px 5px;
+  position: relative;
+  z-index: 0;
+  cursor: pointer;
+}
+
+.brown {
+  background: #795548;
+  display: inline;
+}
+
+ul.main-nav {
+  font-family: Raleway;
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+ul.main-nav li {
+  color: #fff;
+  text-decoration: none;
+  font: 19px Raleway;
+  margin: 0px 10px;
+  padding: 10px 0px;
+  position: relative;
+  z-index: 0;
+  cursor: pointer;
+  float: left;
+}
+ul.main-nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: rgba(238, 233, 233, 0.651);
+}
